@@ -62,7 +62,7 @@ pub fn ex4(x: &[u8], y: &[u8]) -> u64 {
     println!("\n");
     println!("Q4: Explain and demonstrate how to calculates the Hamming Distance between two strings. \n");
     println!("The Hamming distance between two equal-length strings of symbols is \n the number of positions at which the corresponding symbols are different (wikipedia) \n");
-    println!("which can be calculated through fold and bitwise or to check the difference. \n");
+    println!("which can be calculated through fold and bitwise xor to check the difference. \n");
     hamming_distance(x, y)
 }
 
