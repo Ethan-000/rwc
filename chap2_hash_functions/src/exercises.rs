@@ -151,7 +151,7 @@ fn hamming_distance(x: &[u8], y: &[u8]) -> u64 {
 
 
 
-// Reference: 
+// Some materials that may be helpful: 
 // http://merlot.usc.edu/csac-f06/papers/Wang05a.pdf
 // https://www.mscs.dal.ca/~selinger/md5collision/
 // https://crypto.stackexchange.com/questions/1434/are-there-two-known-strings-which-have-the-same-md5-hash-value
