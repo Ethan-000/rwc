@@ -85,7 +85,7 @@ pub fn ex6() {
 
     println!("Second Pre-Image resistance means given a hash h and its image i it is difficult to find another i' that has hash h. \n");
     println!("Collision resistance means it is difficult to find i and i' such that they have the same hash. \n");
-    println!("Collision resistance is a stronger assumption (I think) but sometimes it property is broken without Second Pre-Image resistance being broken.\n");
+    println!("Collision resistance is a stronger assumption (I think) but sometimes the property is broken without Second Pre-Image resistance being broken.\n");
     println!("(See papers in the paper folder.)")
 }
 
